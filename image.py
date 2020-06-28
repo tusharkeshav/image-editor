@@ -102,8 +102,8 @@ def exif_info(image, image_path):
 #*********** Main driver Code **********#
 #Main driver code
 def image_main():
-    #image_path = str(raw_input("Enter the path of image or image name: "))
-    image_path = "test_exif.jpg"
+    image_path = str(input("Enter the path of image or image name: "))
+    #image_path = "test_exif.jpg"
     print(image_path)
     image = Image.open(image_path)
     #image.show()
