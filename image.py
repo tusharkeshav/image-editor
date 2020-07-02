@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+#coded by 0xp0is0n -_- XD
 
 from PIL import Image
 from PIL import ImageFilter
@@ -35,6 +36,9 @@ def save(image, image_path, **kwargs):#, result_ext, qualtiy_img ):
         
 #imafe filters
 def image_filter(image, image_path):
+	'''It is a Image Filter Function. It apply various filter to Image.
+Usage: Enter the serial number of Filter you wanted to apply on Image
+For Example: Type 1 for Blur'''
     filter_type = int(input('1. Blur \n2. Edge Enhance \n3. Sharpen \n4. Smooth \n>>>'))
     if filter_type == 1:
         #Blur
@@ -54,6 +58,11 @@ def image_filter(image, image_path):
 
 #Rotate of image
 def rotate(image, image_path):
+'''
+It is a Image Rotate Function. It rotate the Image to by a given degree.
+Usage: Enter the Degree by which you wanted to Rotate the Image.
+For Example: Type 90 to rotate the Image by 90 degree
+'''
     degree = int(input("Enter the degree to rotate(E.g 90 to rotate by 90 degree): "))
     image1 = image.rotate(degree)
     save(image1, image_path)
@@ -61,6 +70,16 @@ def rotate(image, image_path):
     
 #Flipping of Image
 def flip(image, image_path):
+'''
+It is a Image Flip Function. It flip the image to given Flip option.
+Currently, It support
+-> Flip Left to Right
+-> Flip Top to Bottom
+-> Image Transpose
+Other Rotation can be Performed under Rotation of Image
+Usage: Enter the serial number of Flip.
+For Example: Type 1 for Flip Left to Right.
+'''
     flip_id = int(input("1. Flip Left to right \n2. Flip Top to bottom \n3. Image Transpose \n>>>"))
     if flip_id == 1:
         image1 = image.transpose(Image.FLIP_LEFT_RIGHT)
@@ -75,6 +94,12 @@ def flip(image, image_path):
     
 #thumbnail code
 def thumbnail(image, image_path):
+'''
+It is a Thumbnail Function. It convert Image to its Thumbnail of given size.
+Alert: If the enter width(or Height) of Image exceed Original Image widht(or Height), this function won't stretch the Image to given size instead It uses the original width of Image.
+Usage: Enter the desired Widht and then enter the desired Height.
+Info: Currently, it save the Thumbnail Image in PNG format. Generaly, thumbnail are in PNG
+'''
     max_width = int(input("Enter the max width: "))
     max_height = int(input("Enter the max height: "))
     image.thumbnail((max_width, max_height))
@@ -82,6 +107,11 @@ def thumbnail(image, image_path):
     
 
 def exif_info(image, image_path):
+'''
+EXIF_INFO provide you the meta-data of Image if availiable. 
+Meta-data of Image often contain some Camera, GPS, Exposure etc. information.
+It is very useful in obtaining some extra juicy info about Image.
+'''
     exif_data = image.getexif()
     #print(exif_data)
     for tag_id in exif_data:
@@ -102,6 +132,9 @@ def exif_info(image, image_path):
 #*********** Main driver Code **********#
 #Main driver code
 def image_main():
+'''
+
+'''
     image_path = str(input("Enter the path of image or image name: "))
     #image_path = "test_exif.jpg"
     print(image_path)
