@@ -36,7 +36,7 @@ def save(image, image_path, **kwargs):#, result_ext, qualtiy_img ):
         
 #imafe filters
 def image_filter(image, image_path):
-	'''It is a Image Filter Function. It apply various filter to Image.
+    '''It is a Image Filter Function. It apply various filter to Image.
 Usage: Enter the serial number of Filter you wanted to apply on Image
 For Example: Type 1 for Blur'''
     filter_type = int(input('1. Blur \n2. Edge Enhance \n3. Sharpen \n4. Smooth \n>>>'))
@@ -58,7 +58,7 @@ For Example: Type 1 for Blur'''
 
 #Rotate of image
 def rotate(image, image_path):
-'''
+    '''
 It is a Image Rotate Function. It rotate the Image to by a given degree.
 Usage: Enter the Degree by which you wanted to Rotate the Image.
 For Example: Type 90 to rotate the Image by 90 degree
@@ -70,7 +70,7 @@ For Example: Type 90 to rotate the Image by 90 degree
     
 #Flipping of Image
 def flip(image, image_path):
-'''
+    '''
 It is a Image Flip Function. It flip the image to given Flip option.
 Currently, It support
 -> Flip Left to Right
@@ -94,7 +94,7 @@ For Example: Type 1 for Flip Left to Right.
     
 #thumbnail code
 def thumbnail(image, image_path):
-'''
+    '''
 It is a Thumbnail Function. It convert Image to its Thumbnail of given size.
 Alert: If the enter width(or Height) of Image exceed Original Image widht(or Height), this function won't stretch the Image to given size instead It uses the original width of Image.
 Usage: Enter the desired Widht and then enter the desired Height.
@@ -107,7 +107,7 @@ Info: Currently, it save the Thumbnail Image in PNG format. Generaly, thumbnail 
     
 
 def exif_info(image, image_path):
-'''
+    '''
 EXIF_INFO provide you the meta-data of Image if availiable. 
 Meta-data of Image often contain some Camera, GPS, Exposure etc. information.
 It is very useful in obtaining some extra juicy info about Image.
@@ -132,8 +132,8 @@ It is very useful in obtaining some extra juicy info about Image.
 #*********** Main driver Code **********#
 #Main driver code
 def image_main():
-'''
-
+    '''
+PASS
 '''
     image_path = str(input("Enter the path of image or image name: "))
     #image_path = "test_exif.jpg"
