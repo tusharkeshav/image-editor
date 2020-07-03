@@ -133,7 +133,13 @@ It is very useful in obtaining some extra juicy info about Image.
 #Main driver code
 def image_main():
     '''
-PASS
+It is a light weight handy Image editing tool developed mainly for CLI users.
+Library used: Pillow
+Usage: You have to insert the Path of Image. For Example: /root/Desktop/test.jpg.
+Then Enter the serial of the features to be used on Image
+You can Type help for any help in any feature.
+Features: Right now many features are included - Resizing, Filtering, Rotation, Flipping of Image
+
 '''
     image_path = str(input("Enter the path of image or image name: "))
     #image_path = "test_exif.jpg"
