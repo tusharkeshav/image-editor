@@ -14,4 +14,5 @@ Description: It is a image editing tool based on Python Pillow library built for
 ## Set Up:
 ```sh
 $ pip3 install -r requirements.txt
+$ python3 image.py
 ```
