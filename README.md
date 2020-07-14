@@ -21,3 +21,4 @@ Then, Type the serial of the feature you wanna try! and Follow Instructions
 - You can type <b>help</b> at any time during running of code to get to know more information about the function.
 License
 ---
+GNU General Public License v3.0
