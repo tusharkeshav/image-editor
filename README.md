@@ -24,7 +24,10 @@ Then, Type the serial of the feature you wanna try! and Follow Instructions
 ### Todos
 * Graphic interface(Using Tkinter)
 * Add few More features 
-  * Cropping of Image
+  * Image Crop
+  * More Filters
+  * Brightness, Contrast, Sharpening modification
+  * Add a new image to image(overlay)
   
 
 ### License
