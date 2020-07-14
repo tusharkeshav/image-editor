@@ -17,4 +17,4 @@ $ pip3 install -r requirements.txt
 $ python3 image-edit.py
 ```
 ### Help:
-You can type help at any time during running of code to get to know more information about the function.
+- You can type <b>help</b> at any time during running of code to get to know more information about the function.
