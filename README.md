@@ -1,5 +1,5 @@
 # image-editor
-Description: It is a image tool based on Python Pillow library built for all CLI lovers. Users can easily modify Image.
+Description: It is a image editing tool based on Python Pillow library built for all CLI lovers. Users can easily modify Image.
 ## Features:
 - Image resizing
 - Image Format Converion(jpg to png(vice-versa))
@@ -7,4 +7,6 @@ Description: It is a image tool based on Python Pillow library built for all CLI
 - Image Filters
 - Rotation of Image(by degree)
 - Get Exif Information <br>
-Language used: python
+### Additional Information
+- Language used: Python
+- Library used: Pillow
