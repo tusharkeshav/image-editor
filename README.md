@@ -15,7 +15,7 @@ Description: It is a image editing tool based on Python Pillow library built for
 ```sh
 $ pip3 install -r requirements.txt
 $ python3 image-edit.py
-Type the serial of the feature you wanna try!
 ```
+Then, Type the serial of the feature you wanna try! and Follow Instructions
 ### Help:
 - You can type <b>help</b> at any time during running of code to get to know more information about the function.
