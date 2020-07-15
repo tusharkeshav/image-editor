@@ -28,6 +28,7 @@ Then, Type the serial of the feature you wanna try! and Follow Instructions
   * More Filters
   * Brightness, Contrast, Sharpening modification
   * Add a new image to image(overlay)
+* Text extractor from Image
   
 ### NOTE:
 Contributions are Welcome!! ♥♥
