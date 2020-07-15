@@ -30,7 +30,7 @@ Then, Type the serial of the feature you wanna try! and Follow Instructions
   * Add a new image to image(overlay)
   
 ### NOTE:
-Contribution are Welcome!!
+Contributions are Welcome!!
 
 ### License
 ---
