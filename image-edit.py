@@ -160,7 +160,7 @@ Features: Right now many features are included - Resizing, Filtering, Rotation, 
         new_image.save(name_noExt+"new."+Ext)
         print('The image is save as: '+ name_noExt+"new."+Ext)
     
-    #chaning image type e.g png to jpg
+    #changing image type e.g png to jpg
     elif user_choice == 2:
         img_format = (str(input('Enter the format as png/jpg :'))).lower()
         if img_format == 'png':
